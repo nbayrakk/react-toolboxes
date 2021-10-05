@@ -16,7 +16,7 @@ export default function Dashboard() {
     useEffect(() => {
         setUser(selectedUser)
     }, [])
-    conso
+
     const onChange = (event) => {
         const { name, value } = event.target
         setUser(preUser => ({
